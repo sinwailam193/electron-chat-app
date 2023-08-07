@@ -1,0 +1,29 @@
+.root {
+    height: 100%;
+}
+.contentContainer {
+    height: 100%;
+}
+
+.signUpBtn {
+    border-radius: 8px;
+    margin-bottom: 48px;
+}
+
+.phoneNumberTextfield {
+    width: 300px;
+}
+
+.nextBtn {
+    margin-top: 16px;
+    width: 300px;
+    background-color: black;
+    border-radius: 8px;
+}
+
+.phoneNumberIcon {
+    background-color: #e5e1e1;
+    border-radius: 4px;
+    padding: 10px;
+    margin-right: 8px;
+}
