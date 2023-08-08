@@ -10,8 +10,17 @@
     margin-bottom: 48px;
 }
 
-.phoneNumberTextfield {
+.phoneSubText {
+    color: grey;
+    margin: 16px 0
+}
+
+.firstTextField, .secondTextField {
     width: 300px;
+}
+
+.secondTextField {
+    margin-top: 16px;
 }
 
 .nextBtn {
