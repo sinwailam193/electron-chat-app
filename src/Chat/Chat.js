@@ -8,19 +8,13 @@ import styles from './Chat.module.css';
 
 const DEFAULT_CHAT = [{
     id: makeid(5),
-    name: 'Darryl',
+    name: 'Aaron',
     messages: [
         {
             id: makeid(5),
-            ownMessage: true,
-            msg: 'Hello aasdasd asdasd asdasd asdasd asd asd',
-            timestamp: getTimeStr(new Date('2023-08-09 05:41')),
-        },
-        {
-            id: makeid(5),
             ownMessage: false,
-            msg: 'I\'m fine how are you?',
-            timestamp: getTimeStr(new Date('2023-08-09 07:41')),
+            msg: 'Hello my name is Aaron, how are you?',
+            timestamp: getTimeStr(new Date('2023-08-09 05:41')),
         }
     ],
     timestamp: getTimeStr(new Date('2023-08-09 06:41')),

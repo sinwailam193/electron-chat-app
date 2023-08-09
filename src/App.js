@@ -6,7 +6,7 @@ import Chat from './Chat';
 function App() {
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
-    const [showChat, setShowChat] = useState(true);
+    const [showChat, setShowChat] = useState(false);
   
     return showChat? (
         <Chat />
