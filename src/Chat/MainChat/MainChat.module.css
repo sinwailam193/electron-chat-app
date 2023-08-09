@@ -1,0 +1,89 @@
+.root {
+    height: 100%;
+    padding-top: 8px;
+}
+
+.headerContainer {
+    padding: 16px;
+    background-color: #F2F2F7;
+    height: 82px;
+
+    .headerName {
+        margin-left: 16px;
+        font-weight: 500;
+    }
+}
+
+.messageSubmit {
+    align-self: flex-end;
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.msgTextfield {
+    margin-left: 16px;
+    width: calc(100% - 82px);
+
+    .inputBase {
+        border-radius: 50px;
+    }
+}
+
+.sendMsgBtn {
+    border-radius: 50px;
+    background-color: #0071EE;
+    color: white;
+    height: 34px;
+    width: 34px;
+    margin: 0 16px;
+}
+
+.sendMsgBtn:hover {
+    background-color: #0071EE;
+}
+
+.overallMessages {
+    height: calc(100% - 82px);
+    overflow: auto;
+
+    .messageOuterContainer {
+        width:100%;
+    
+        .messageContainer {
+            padding-top: 8px;
+            width: 100%;
+        
+            .message {
+                max-width: 536px;
+                width: fit-content;
+                padding: 16px;
+                border-radius: 8px;
+                margin-bottom: 16px;
+        
+                .msgTimestamp {
+                    display: block;
+                    text-align: right;
+                    margin-top: 4px;
+                }
+            }
+        
+            .ownMessage {
+                align-self: flex-end;
+                background-color: #0071EE;
+                margin-right: 8px;
+                margin-left: auto;
+                color: white;
+            }
+        
+            .otherMessage {
+                background-color: #E5E5EA;
+                margin-left: 8px;
+            }
+        
+            .messageList {
+                width: 100%;
+            }
+        }
+    }
+}
+

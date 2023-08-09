@@ -1,0 +1,14 @@
+.root {
+    height: 100%
+}
+
+.sideBarContainer {
+    max-width: 400px;
+    width: 30%;
+}
+
+.mainChatContainer {
+    width: 70%;
+    min-width: calc(100% - 400px);
+    height: 100%;
+}
