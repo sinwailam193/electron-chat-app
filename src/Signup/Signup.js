@@ -15,6 +15,11 @@ function Signup({
     const [code, setCode] = useState('');
     const [nextDisabled, setNextDisabled] = useState(false);
 
+    /*
+        step 0: get user phone
+        step 1: get the confirmation code
+        step 2: get user's name
+    */
     const handleNext = useCallback(() => {
         const nextStep = step + 1;
         if (nextStep > 2) {

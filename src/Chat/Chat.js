@@ -26,6 +26,7 @@ export default function Chat() {
     const [chats, setChats] = useState(DEFAULT_CHAT);
     const currentMainChat = chats.find(chat => chat.selected);
 
+    // Adding the new message to the end of the messages array of the current user chat
     const addMessage = useCallback((newMessage) => {
         const index = chats.findIndex(msg => msg.id === (currentMainChat && currentMainChat.id));
         if (index > -1) {
@@ -38,6 +39,7 @@ export default function Chat() {
         }
     }, [chats]);
 
+    // On every new chats update we make sure to scroll to the bottom
     useEffect(() => {
         scrollToBottom();
     }, [chats]);

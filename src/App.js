@@ -8,6 +8,7 @@ function App() {
     const [lastName, setLastName] = useState('');
     const [showChat, setShowChat] = useState(false);
   
+    // two different flow, signuip flow and the main chat flow
     return showChat? (
         <Chat />
     ) : (
